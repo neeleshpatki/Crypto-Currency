@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Price Tracker</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cryptocurrency Price Tracker</h1>
+        <input type="text" id="searchBar" placeholder="Search for a cryptocurrency...">
+        <button id="refreshButton">Refresh Prices</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>Current Price (INR)</th>
+                </tr>
+            </thead>
+            <tbody id="cryptoTable">
+                <!-- Data will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

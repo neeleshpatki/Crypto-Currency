@@ -1,0 +1,48 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+input#searchBar {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+button#refreshButton {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button#refreshButton:hover {
+    background-color: #218838;
+}
